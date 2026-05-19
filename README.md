@@ -8,14 +8,14 @@ processing, and statistical analysis in the master's thesis.
 ## Repository structure
 
 ### 1_laser_modulation
-Python GUI and Arduino code for laser modulation control.
+Python and Arduino code for laser modulation control.
 - gui_dac_main.py: Python GUI for parameter input and serial communication
-- arduino_laser_control.ino: Arduino MEGA code for DAC control and pulse generation
+- Arduino_laser_control.ino: Arduino MEGA code for DAC control and pulse generation
 
 ### 2_FBG_interrogator
-FBG sensor data acquisition scripts for temperature measurements.
-- interrogator_synced: data acquisition synchronized with laser modulation
-- interrogator_baseline: standalone baseline acquisition without laser activation
+Python scripts for FBG sensor data acquisition for temperature measurements.
+- interrogator_synced.py: data acquisition synchronized with laser modulation
+- interrogator_baseline.py: standalone baseline acquisition without laser activation
 
 ### 3_light_distribution
 MATLAB scripts for image processing and statistical analysis of light distribution profiles.
@@ -24,13 +24,16 @@ MATLAB scripts for image processing and statistical analysis of light distributi
 - Graphs_and_barplots_intensity_contour_area.m
 
 ### 4_temperature_analysis
-MATLAB scripts for temperature data analysis and figure generation.
+MATLAB and Python scripts for temperature data analysis and figure generation.
 - ANOVA_DeltaT_fiber_x_power.m
 - ANOVA_DeltaT_fiber_x_parameter_combinations.m
 - ANOVA_heating_rate_fiber_x_power.m
 - ANOVA_heating_rate_fiber_x_parameter_combinations.m
 - Graphs_and_barplots_for_DeltaT_and_heating_rate.m
 - Graph_overlay_heavysmoothing.m
+- temp_figures.py
+- temp_baseline_figure.py
+- pulse_temp_figure.py
 
 ## Requirements
 - Python 3.x: tkinter, pyserial
