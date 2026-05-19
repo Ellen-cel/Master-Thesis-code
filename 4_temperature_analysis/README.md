@@ -12,6 +12,6 @@ MATLAB scripts (statistical analysis):
 - Graph_overlay_heavysmoothing.m
 
 Python scripts (figure generation):
-- temp_figures.py: bar plots of ΔT and heating rate per fiber and probe type
+- temp_figures.py: temperature visualization during illumination
 - temp_baseline_figure.py: baseline temperature visualization
 - pulse_temp_figure.py: pulse-response figure showing heating and cooling cycles
