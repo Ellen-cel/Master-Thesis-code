@@ -1,7 +1,7 @@
 MATLAB and Python scripts for temperature data analysis and figure generation.
 ΔT = mean temperature during final 40 s of illumination minus mean baseline 
 temperature. Heating rate = mean ΔT during first 20 s of illumination (°C/s). 
-Statistical comparisons used two-way ANOVA with Tukey post-hoc correction (α = 0.05).
+Statistical comparisons used ANOVA with Tukey post-hoc correction (α = 0.05).
 
 MATLAB scripts (statistical analysis):
 - ANOVA_DeltaT_fiber_x_power.m
