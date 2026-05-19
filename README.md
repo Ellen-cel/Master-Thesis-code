@@ -1,5 +1,5 @@
 # Master Thesis Code
-## Comparison of Standard Fibers and Novel Optical Probes: Illumination Profiles and Photothermal Effects Validated in Liquid Brain Phantoms
+## Comparison of Standard and Novel Implantable Optical Waveguides: Illumination Profiles and Photothermal Effects Validated in Liquid Brain Phantoms
 Ellen Vanhulle & Gianni Brulez — Ghent University, 2025-2026
 
 This repository contains all custom code used for data acquisition, 
