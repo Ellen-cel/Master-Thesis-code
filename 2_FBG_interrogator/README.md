@@ -1,4 +1,5 @@
-Two scripts for FBG sensor data acquisition:
-- interrogator_synced: synchronized with laser modulation for 
-  temperature measurements during illumination
-- interrogator_baseline: standalone acquisition for pre-illumination baseline measurements
+Python scripts for FBG sensor data acquisition for temperature measurements.
+
+Files:
+- interrogator_synced.py: data acquisition synchronized with laser modulation
+- interrogator_baseline.py: standalone baseline acquisition without laser activation
