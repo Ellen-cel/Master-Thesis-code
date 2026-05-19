@@ -6,12 +6,33 @@ This repository contains all custom code used for data acquisition,
 processing, and statistical analysis in the master's thesis.
 
 ## Repository structure
-- 1_laser_modulation: Python GUI and Arduino code for laser control
-- 2_FBG_interrogator: FBG sensor data acquisition scripts
-- 3_light_distribution: MATLAB scripts for image processing and contour analysis
-- 4_temperature_analysis: MATLAB scripts for statistical analysis and figure generation
+
+### 1_laser_modulation
+Python GUI and Arduino code for laser modulation control.
+- gui_dac_main.py: Python GUI for parameter input and serial communication
+- arduino_laser_control.ino: Arduino MEGA code for DAC control and pulse generation
+
+### 2_FBG_interrogator
+FBG sensor data acquisition scripts for temperature measurements.
+- interrogator_synced: data acquisition synchronized with laser modulation
+- interrogator_baseline: standalone baseline acquisition without laser activation
+
+### 3_light_distribution
+MATLAB scripts for image processing and statistical analysis of light distribution profiles.
+- Absolute_intensity_and_intensity_contour_profiles.m
+- ANOVA_5%_and_50%_intensity_contour_areas.m
+- Graphs_and_barplots_intensity_contour_area.m
+
+### 4_temperature_analysis
+MATLAB scripts for temperature data analysis and figure generation.
+- ANOVA_DeltaT_fiber_x_power.m
+- ANOVA_DeltaT_fiber_x_parameter_combinations.m
+- ANOVA_heating_rate_fiber_x_power.m
+- ANOVA_heating_rate_fiber_x_parameter_combinations.m
+- Graphs_and_barplots_for_DeltaT_and_heating_rate.m
+- Graph_overlay_heavysmoothing.m
 
 ## Requirements
 - Python 3.x: tkinter, pyserial
-- Arduino
+- Arduino IDE
 - MATLAB
